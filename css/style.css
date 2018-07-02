@@ -1,0 +1,48 @@
+/*
+
+0   -   600px           : phone
+600 -   900px           : tablet portrait
+900 -   1200px          : tablet landscape
+
+[1200 - 1800pc] id where out normal styles apply
+1800px+                 : Big Desktop
+
+breakpoint choices
+
+--phone
+--tab-port
+--tab-land
+--bid-desktop
+
+1em = 16px
+*/
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  /*defines Font size what 1rem is */
+  font-size: 62.5%; }
+  @media only screen and (min-width: 112.5em) {
+    html {
+      font-size: 75%; } }
+  @media only screen and (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
+  @media only screen and (max-width: 56.25em) {
+    html {
+      font-size: 50%; } }
+
+body {
+  box-sizing: border-box;
+  padding: 3rem; }
+  @media only screen and (max-width: 56.25em) {
+    body {
+      padding: 0; } }
+
+::selection {
+  background-color: #18D4CA;
+  color: #ffffff; }
