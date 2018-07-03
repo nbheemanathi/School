@@ -46,3 +46,15 @@ body {
 ::selection {
   background-color: #18D4CA;
   color: #ffffff; }
+
+.large-hero {
+  position: relative;
+  height: 85vh; }
+  .large-hero__left {
+    width: 40%;
+    float: left; }
+  .large-hero__right {
+    height: 100%;
+    width: 60%;
+    float: left;
+    background-color: orangered; }
