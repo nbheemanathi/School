@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,10 +8,73 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Document</title>
 </head>
+
 <body>
+    <header class="site-header">
+        <div class="row">
+            <div class="site-header__logo">
+                <p class="site-header__logo-text" >PROVYUH</p>
+            </div>
+            <nav class="primary-nav primary-nav--pull-right">
+                <ul>
+                    <li>
+                        <a href="#features">Features</a>
+                    </li>
+                    <li>                        
+                        <a href="#testimonials">Testimonials</a>
+                    </li>
+                    <li>
+                        <a href="#pricing">Pricing</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
     <div class="large-hero">
         <div class="large-hero__left">
-            text
+            <div class="large-hero__form">
+                <div class="u-margin-bottom-medium">
+                    <p class="form-header form-header__main">Start organizing</p>
+                    <p class="form-header form-header__sub">Welcome Back, Please
+                        <br> login to you account</p>
+                </div>
+                <form action="#" class="form">
+                    <div class="form__group">
+                        <input type="email" name="email" id="email" class="form__input" placeholder="Email Address" required>
+                        <label for="email" class="form__label">Email Address</label>
+                    </div>
+                    <div class="form__group">
+                        <input type="password" name="password" id="password" class="form__input" placeholder="Password" required>
+                        <label for="password" class="form__label">Password</label>
+                    </div>
+                    <div class="form__group">
+                        <div class="form__checkbox">
+                            <input type="checkbox" name="remember" id="remember" class="form__checkbox-input">
+                            <label for="remember" class="form__checkbox-label">
+                                <span class="form__checkbox-button"></span>
+                                Remember me</label>
+                        </div>
+                        <div class="form__link u-right-text">
+                            <a href="#" class="link">Forgot Password</a>
+                        </div>
+                    </div>
+                    <div class="form__group">
+                        <button type="submit" class="btn btn--blue u-margin-right-medium">Login</button>
+                        <button type="button" class="btn btn--aqua">Sign up</button>
+                    </div>
+                </form>
+                <div class="u-margin-top-medium u-margin-bottom-medium">
+                    <p class="form-header form-header__sub">By clicking Sign Up, you agree to our
+                        <br>
+                        <strong> Terms and conditions</strong> &
+                        <strong> privacy policy</strong>
+                    </p>
+                </div>
+            </div>
         </div>
         <div class="large-hero__right">
             <div class="large-hero__text-box">
@@ -21,4 +85,5 @@
         </div>
     </div>
 </body>
+
 </html>

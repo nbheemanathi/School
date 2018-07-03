@@ -4,17 +4,19 @@
   @include clearfix;
 
   &__left {
+    height: 100%;
     width: 35%;
     float: left;
+    background-color: $color-grey-light-2;
   }
   &__right {
     height: 100%;
     width: 65%;
-    float: left;
+    float: right;
     background-image: linear-gradient(
         to right bottom,
-        rgba(transparent, 0.4),
-        rgba(transparent, 0.4)
+        rgba(#3A3A3A, 0.4),
+        rgba(#3A3A3A, 0.4)
       ),
       url("../img/hero-header.jpg");
     background-size: cover;
@@ -31,5 +33,11 @@
     background-color: rgba(#D8D8D8, 0.2);
     padding: 9rem;
     border-radius: 10px;
+  }
+
+  &__form{
+    width: 100%;
+    margin-top: 10rem;
+    padding: 5rem;
   }
 }

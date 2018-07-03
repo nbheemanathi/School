@@ -2,8 +2,29 @@ $color-primary: #18D4CA;
 $color-secondary: #24283B;
 $color-tertiary:#5988E1;
 
-$color-black-light: rgba(0, 0, 0, 0.561);
+$color-black: #000;
+$color-black-light: rgba(92, 92, 92, 0.561);
 $color-white:#ffffff;
 
-$color-grey-light: rgba(21, 21, 21, 0.816);
-                
+$color-grey-light: rgba(21, 21, 21, 0.2);
+$color-grey-light-1: #f7f7f7;
+$color-grey-light-2: #eee;
+
+
+$color-grey-dark: #777;
+$color-grey-dark-2: #999;
+$color-grey-dark-3: #333;
+$color-validation-light : #ffb900;
+$color-validation-dark : #ff7730;                
+
+
+//variables for grid
+
+$grid-width: 114rem;
+$grid-width-small: 50rem;
+$gutter-vertical:8rem;
+$gutter-vertical-small:6rem;
+$gutter-horizontal: 6rem;
+
+//Font
+$default-font-size: 1.6rem;

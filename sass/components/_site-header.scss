@@ -1,0 +1,43 @@
+.site-header {
+    padding: 10px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    // background-color: rgba($color:transparent, $alpha: .3);
+    &__logo {
+        position: absolute;
+        top:2;
+        color: $color-primary;
+        padding: 20px 0;
+        &-text {
+            font-size: 1.8rem;
+            font-weight: 600;
+            letter-spacing: 2px;
+        }
+    }
+}
+
+.primary-nav {
+    float: right;
+    &--pull-right {
+        & ul {
+            margin: 0;
+            padding: 0; // @include clearfix;
+        }
+        & li {
+            list-style: none;
+            display: inline-block;
+            float: left;
+            padding-right: 3rem;
+        }
+        a {
+            color: $color-white;
+            text-decoration: none;
+            font-size: 1.6rem;
+            padding: 20px 0;
+            display: block;
+        }
+    }
+}

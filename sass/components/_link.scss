@@ -1,0 +1,16 @@
+.link {
+    &,
+    &:link,
+    &:visited {
+        font-size: 1.6rem;
+        text-decoration: none;
+        color: $color-secondary;
+        letter-spacing: 1px;
+        transition: all .3s;
+    }
+
+    &:hover{
+        padding-bottom: .5rem;
+        border-bottom: 2px solid $color-primary;
+    }
+}
